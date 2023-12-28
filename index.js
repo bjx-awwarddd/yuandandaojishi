@@ -25,7 +25,7 @@ var S = {
         S.UI.simulate(decodeURI(action).substring(i + 3));
       } else {
         // 代码获取 微信公众号 程序员晨光 回复 888
-        S.UI.simulate('|#countdown 10|元旦快乐|来同学|哗众取宠|❤|BY 毕&张|');
+        S.UI.simulate('|#countdown 10|元旦快乐|来同学|别哗众取宠|❤|BY 毕&张|');
       }
   
       S.Drawing.loop(function () {
